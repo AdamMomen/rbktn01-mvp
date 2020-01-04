@@ -1,0 +1,51 @@
+{
+  "name": "chatterapp",
+  "version": "1.0.0",
+  "description": "Discord clone",
+  "main": "./server/server.js",
+  "scripts": {
+    "start": "nodemon node ./server/server.js",
+    "dev-react": "webpack  -w -d",
+    "db": "node ./DB/model/model.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdamMomen/ChatterApp.git"
+  },
+  "author": "AdamMomen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdamMomen/ChatterApp/issues"
+  },
+  "homepage": "https://github.com/AdamMomen/ChatterApp#readme",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.3",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "http": "0.0.0",
+    "jquery": "^3.4.1",
+    "mongoose": "^5.8.4",
+    "nodemon": "^2.0.2",
+    "path": "^0.12.7",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "socket.io": "^2.3.0",
+    "socket.io-client": "^2.3.0",
+    "socketio": "^1.0.0",
+    "webpack": "^4.41.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "@babel/preset-react": "^7.7.4",
+    "babel-loader": "^8.0.6",
+    "concurrently": "^5.0.2",
+    "css-loader": "^3.4.1",
+    "react-icons": "^3.8.0",
+    "sass-loader": "^8.0.0",
+    "source-map-loader": "^0.2.4",
+    "uuid": "^3.3.3",
+    "webpack-cli": "^3.3.10"
+  }
+}
